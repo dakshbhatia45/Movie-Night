@@ -1,0 +1,155 @@
+.home{
+    background-image: url('../images/a.jpg');
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+
+}
+.nav{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0.1px;
+    height: 100%;
+    width: 100%;
+    background-color: darkslategrey;
+}
+li{
+    padding: 20px; 
+    margin: 0.5px;
+    color: white;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+:hover{
+    color: white;
+    text-decoration: none;
+}
+a:active{
+    color: white;
+    text-decoration: none;
+}
+.content{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+h1{
+    font-size: 3.3rem;
+}
+h2{
+    font-size: 2.3rem;
+}
+p{
+    font-size: 1.3rem;
+}
+.mid{
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: dimgray;
+    padding: 20px;
+    font: 2.3rem;
+    color: white;
+}
+.main{
+    display: inline-flex;
+    margin: 5px;
+    background-color: dimgray;
+}
+.btn{
+    font-size: 0.9rem;
+    padding: 20px;
+    width: 13%;
+    color: black;
+    background-color: green;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover {background-color: #3e8e41}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+h4{
+    font-size: 1.2rem;
+}
+.middle{
+    text-align: center;
+    color: black;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+.bn{
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.bn:hover {background-color: blueviolet}
+
+.bn:active {
+  background-color: blueviolet;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} 
+.last{
+    background-image: url('../y.jpg');
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+.is{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    margin: 10px;
+    color: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    padding: 40px;
+    margin: 40px;
+    width: 70%;
+    margin-left: 240px;
+    color: black;
+   
+}
+#grid-cards{
+    padding: 40px;
+}
+.k{
+    align-items: left;
+    justify-content: left;
+}
+
+
